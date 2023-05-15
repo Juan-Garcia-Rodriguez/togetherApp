@@ -1,17 +1,28 @@
 <script setup>
-import { Link } from '@inertiajs/vue3';
+import { Link } from "@inertiajs/vue3";
 </script>
 
 <template>
     <Link :href="'/'">
-        <svg
-            class="w-16 h-16"
-            viewBox="0 0 48 48"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-        >
-            <path d="M11.395 44.428C4.557 40.198 0 32.632 0 24 0 10.745 10.745 0 24 0a23.891 23.891 0 0113.997 4.502c-.2 17.907-11.097 33.245-26.602 39.926z" fill="#6875F5" />
-            <path d="M14.134 45.885A23.914 23.914 0 0024 48c13.255 0 24-10.745 24-24 0-3.516-.756-6.856-2.115-9.866-4.659 15.143-16.608 27.092-31.75 31.751z" fill="#6875F5" />
+        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+            <rect x="0" y="0" width="100" height="100" fill="#00796b" />
+            <circle cx="50" cy="50" r="35" fill="#ffffff" />
+            <line
+                x1="40"
+                y1="50"
+                x2="60"
+                y2="50"
+                stroke="#00796b"
+                stroke-width="5"
+            />
+            <line
+                x1="50"
+                y1="40"
+                x2="50"
+                y2="60"
+                stroke="#00796b"
+                stroke-width="5"
+            />
         </svg>
     </Link>
 </template>
